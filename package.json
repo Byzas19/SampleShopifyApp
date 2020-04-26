@@ -1,0 +1,41 @@
+{
+  "name": "SampleShopifyApp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Byzas19/SampleShopifyApp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Byzas19/SampleShopifyApp/issues"
+  },
+  "homepage": "https://github.com/Byzas19/SampleShopifyApp#readme",
+  "dependencies": {
+    "@shopify/koa-shopify-auth": "^3.1.58",
+    "@shopify/polaris": "^4.20.1",
+    "@zeit/next-css": "^1.0.1",
+    "dotenv": "^8.2.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.19.0",
+    "isomorphic-fetch": "^2.2.1",
+    "koa": "^2.11.0",
+    "koa-session": "^5.13.1",
+    "next": "^9.3.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "save": "^2.4.0"
+  }
+}
